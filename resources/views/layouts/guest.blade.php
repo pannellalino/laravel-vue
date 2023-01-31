@@ -11,9 +11,9 @@
         <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Scripts -->
-        @vite(['resources/css/appVue.css', 'resources/js/appVue.js'])
+        @vite(['resources/scss/appVue.scss', 'resources/js/appVue.js'])
     </head>
-    <body>
+    <body class="bg-dark text-white">
         @yield('content')
     </body>
 </html>
